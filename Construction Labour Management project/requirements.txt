@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dotenv
+jinja2
+python-multipart
+itsdangerous
+openai
+pandas
+reportlab
+openpyxl
+psycopg2-binary

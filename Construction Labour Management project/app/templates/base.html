@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title or "Construction Labour Management" }}</title><link rel="stylesheet" href="/static/css/style.css"></head>
+<body><div class="layout">
+<aside><h2>🏗️ BuildLab</h2><div class="muted">Labour Management</div>
+<nav>
+<a href="/dashboard">📊 Dashboard</a><a href="/labour">👷 Labour</a><a href="/sites">🏗️ Sites</a><a href="/assignments">👥 Assignments</a><a href="/attendance">🕘 Attendance</a><a href="/salary">💰 Salary</a><a href="/advance">💵 Advance</a><a href="/payments">💳 Payments</a><a href="/overtime">⏱️ Overtime</a><a href="/ai">🤖 AI Assistant</a><a href="/reports">📄 CSV Report</a><a href="/profile">👤 Profile</a><a href="/logout">🚪 Logout</a>
+</nav></aside><main><header><div><b>Construction Labour Management System</b></div><div>{{ user.name if user else "" }}</div></header>{% block content %}{% endblock %}</main></div></body></html>
